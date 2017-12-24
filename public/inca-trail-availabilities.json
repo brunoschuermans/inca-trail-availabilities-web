@@ -1,0 +1,5695 @@
+{
+  "availabilities": [
+    {
+      "year": 2017,
+      "month": 1,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 31,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 31,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 31,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 31,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 31,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 31,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 30,
+          "two": 138
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 126
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 15
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 57
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 95
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 103
+        },
+        {
+          "day": 31,
+          "four": 55,
+          "two": 112
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 147,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 63,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 176,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 71,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 109,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 166,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 191,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 138,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 295,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 231,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 218,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 212,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 233,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 198,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 153,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 309,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 360,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 355,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 352,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 175,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 273,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 319,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 334,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 356,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 294,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 362,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 314,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 418,
+          "two": 0
+        },
+        {
+          "day": 31,
+          "four": 287,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 182
+        },
+        {
+          "day": 2,
+          "four": 242,
+          "two": 250
+        },
+        {
+          "day": 3,
+          "four": 267,
+          "two": 245
+        },
+        {
+          "day": 4,
+          "four": 157,
+          "two": 227
+        },
+        {
+          "day": 5,
+          "four": 83,
+          "two": 229
+        },
+        {
+          "day": 6,
+          "four": 184,
+          "two": 235
+        },
+        {
+          "day": 7,
+          "four": 189,
+          "two": 235
+        },
+        {
+          "day": 8,
+          "four": 313,
+          "two": 238
+        },
+        {
+          "day": 9,
+          "four": 323,
+          "two": 230
+        },
+        {
+          "day": 10,
+          "four": 348,
+          "two": 239
+        },
+        {
+          "day": 11,
+          "four": 341,
+          "two": 237
+        },
+        {
+          "day": 12,
+          "four": 90,
+          "two": 246
+        },
+        {
+          "day": 13,
+          "four": 92,
+          "two": 215
+        },
+        {
+          "day": 14,
+          "four": 178,
+          "two": 229
+        },
+        {
+          "day": 15,
+          "four": 225,
+          "two": 238
+        },
+        {
+          "day": 16,
+          "four": 322,
+          "two": 220
+        },
+        {
+          "day": 17,
+          "four": 360,
+          "two": 236
+        },
+        {
+          "day": 18,
+          "four": 358,
+          "two": 239
+        },
+        {
+          "day": 19,
+          "four": 188,
+          "two": 241
+        },
+        {
+          "day": 20,
+          "four": 168,
+          "two": 224
+        },
+        {
+          "day": 21,
+          "four": 145,
+          "two": 248
+        },
+        {
+          "day": 22,
+          "four": 315,
+          "two": 221
+        },
+        {
+          "day": 23,
+          "four": 217,
+          "two": 245
+        },
+        {
+          "day": 24,
+          "four": 285,
+          "two": 227
+        },
+        {
+          "day": 25,
+          "four": 147,
+          "two": 220
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 220
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 193
+        },
+        {
+          "day": 28,
+          "four": 42,
+          "two": 206
+        },
+        {
+          "day": 29,
+          "four": 183,
+          "two": 213
+        },
+        {
+          "day": 30,
+          "four": 108,
+          "two": 233
+        },
+        {
+          "day": 31,
+          "four": 32,
+          "two": 187
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 216
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 208
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 215
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 203
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 182
+        },
+        {
+          "day": 6,
+          "four": 81,
+          "two": 224
+        },
+        {
+          "day": 7,
+          "four": 156,
+          "two": 230
+        },
+        {
+          "day": 8,
+          "four": 208,
+          "two": 238
+        },
+        {
+          "day": 9,
+          "four": 108,
+          "two": 213
+        },
+        {
+          "day": 10,
+          "four": 2,
+          "two": 210
+        },
+        {
+          "day": 11,
+          "four": 66,
+          "two": 235
+        },
+        {
+          "day": 12,
+          "four": 163,
+          "two": 210
+        },
+        {
+          "day": 13,
+          "four": 118,
+          "two": 227
+        },
+        {
+          "day": 14,
+          "four": 199,
+          "two": 211
+        },
+        {
+          "day": 15,
+          "four": 32,
+          "two": 215
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 212
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 234
+        },
+        {
+          "day": 18,
+          "four": 25,
+          "two": 220
+        },
+        {
+          "day": 19,
+          "four": 36,
+          "two": 184
+        },
+        {
+          "day": 20,
+          "four": 2,
+          "two": 225
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 234
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 225
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 226
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 217
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 229
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 210
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 237
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 186
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 237
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 226
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 211
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 189
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 215
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 242
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 212
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 234
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 244
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 213
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 206
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 206
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 229
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 188
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 210
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 213
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 202
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 228
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 214
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 226
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 156
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 227
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 230
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 176
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 204
+        },
+        {
+          "day": 24,
+          "four": 0,
+          "two": 170
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 218
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 211
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 182
+        },
+        {
+          "day": 28,
+          "four": 0,
+          "two": 214
+        },
+        {
+          "day": 29,
+          "four": 0,
+          "two": 225
+        },
+        {
+          "day": 30,
+          "four": 0,
+          "two": 204
+        },
+        {
+          "day": 31,
+          "four": 0,
+          "two": 211
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 223
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 237
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 224
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 226
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 247
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 238
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 216
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 241
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 226
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 244
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 227
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 219
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 226
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 236
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 226
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 240
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 240
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 220
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 248
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 210
+        },
+        {
+          "day": 21,
+          "four": 71,
+          "two": 219
+        },
+        {
+          "day": 22,
+          "four": 90,
+          "two": 233
+        },
+        {
+          "day": 23,
+          "four": 105,
+          "two": 228
+        },
+        {
+          "day": 24,
+          "four": 106,
+          "two": 233
+        },
+        {
+          "day": 25,
+          "four": 0,
+          "two": 230
+        },
+        {
+          "day": 26,
+          "four": 0,
+          "two": 242
+        },
+        {
+          "day": 27,
+          "four": 0,
+          "two": 225
+        },
+        {
+          "day": 28,
+          "four": 172,
+          "two": 229
+        },
+        {
+          "day": 29,
+          "four": 192,
+          "two": 241
+        },
+        {
+          "day": 30,
+          "four": 143,
+          "two": 237
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 203,
+          "two": 172
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 230
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 238
+        },
+        {
+          "day": 4,
+          "four": 49,
+          "two": 235
+        },
+        {
+          "day": 5,
+          "four": 143,
+          "two": 236
+        },
+        {
+          "day": 6,
+          "four": 235,
+          "two": 226
+        },
+        {
+          "day": 7,
+          "four": 250,
+          "two": 236
+        },
+        {
+          "day": 8,
+          "four": 342,
+          "two": 239
+        },
+        {
+          "day": 9,
+          "four": 141,
+          "two": 244
+        },
+        {
+          "day": 10,
+          "four": 38,
+          "two": 250
+        },
+        {
+          "day": 11,
+          "four": 18,
+          "two": 236
+        },
+        {
+          "day": 12,
+          "four": 264,
+          "two": 222
+        },
+        {
+          "day": 13,
+          "four": 180,
+          "two": 234
+        },
+        {
+          "day": 14,
+          "four": 250,
+          "two": 237
+        },
+        {
+          "day": 15,
+          "four": 357,
+          "two": 228
+        },
+        {
+          "day": 16,
+          "four": 157,
+          "two": 235
+        },
+        {
+          "day": 17,
+          "four": 228,
+          "two": 241
+        },
+        {
+          "day": 18,
+          "four": 206,
+          "two": 212
+        },
+        {
+          "day": 19,
+          "four": 249,
+          "two": 219
+        },
+        {
+          "day": 20,
+          "four": 244,
+          "two": 236
+        },
+        {
+          "day": 21,
+          "four": 314,
+          "two": 224
+        },
+        {
+          "day": 22,
+          "four": 164,
+          "two": 227
+        },
+        {
+          "day": 23,
+          "four": 148,
+          "two": 232
+        },
+        {
+          "day": 24,
+          "four": 250,
+          "two": 241
+        },
+        {
+          "day": 25,
+          "four": 124,
+          "two": 245
+        },
+        {
+          "day": 26,
+          "four": 109,
+          "two": 237
+        },
+        {
+          "day": 27,
+          "four": 234,
+          "two": 229
+        },
+        {
+          "day": 28,
+          "four": 200,
+          "two": 235
+        },
+        {
+          "day": 29,
+          "four": 389,
+          "two": 240
+        },
+        {
+          "day": 30,
+          "four": 314,
+          "two": 247
+        },
+        {
+          "day": 31,
+          "four": 274,
+          "two": 231
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 348,
+          "two": 212
+        },
+        {
+          "day": 2,
+          "four": 355,
+          "two": 238
+        },
+        {
+          "day": 3,
+          "four": 294,
+          "two": 247
+        },
+        {
+          "day": 4,
+          "four": 294,
+          "two": 223
+        },
+        {
+          "day": 5,
+          "four": 254,
+          "two": 225
+        },
+        {
+          "day": 6,
+          "four": 247,
+          "two": 228
+        },
+        {
+          "day": 7,
+          "four": 82,
+          "two": 212
+        },
+        {
+          "day": 8,
+          "four": 328,
+          "two": 236
+        },
+        {
+          "day": 9,
+          "four": 283,
+          "two": 210
+        },
+        {
+          "day": 10,
+          "four": 361,
+          "two": 236
+        },
+        {
+          "day": 11,
+          "four": 294,
+          "two": 236
+        },
+        {
+          "day": 12,
+          "four": 416,
+          "two": 229
+        },
+        {
+          "day": 13,
+          "four": 306,
+          "two": 246
+        },
+        {
+          "day": 14,
+          "four": 272,
+          "two": 247
+        },
+        {
+          "day": 15,
+          "four": 380,
+          "two": 250
+        },
+        {
+          "day": 16,
+          "four": 353,
+          "two": 245
+        },
+        {
+          "day": 17,
+          "four": 329,
+          "two": 250
+        },
+        {
+          "day": 18,
+          "four": 366,
+          "two": 244
+        },
+        {
+          "day": 19,
+          "four": 437,
+          "two": 247
+        },
+        {
+          "day": 20,
+          "four": 386,
+          "two": 250
+        },
+        {
+          "day": 21,
+          "four": 389,
+          "two": 236
+        },
+        {
+          "day": 22,
+          "four": 220,
+          "two": 245
+        },
+        {
+          "day": 23,
+          "four": 429,
+          "two": 245
+        },
+        {
+          "day": 24,
+          "four": 409,
+          "two": 235
+        },
+        {
+          "day": 25,
+          "four": 336,
+          "two": 242
+        },
+        {
+          "day": 26,
+          "four": 406,
+          "two": 242
+        },
+        {
+          "day": 27,
+          "four": 407,
+          "two": 247
+        },
+        {
+          "day": 28,
+          "four": 274,
+          "two": 240
+        },
+        {
+          "day": 29,
+          "four": 403,
+          "two": 244
+        },
+        {
+          "day": 30,
+          "four": 398,
+          "two": 244
+        },
+        {
+          "day": 31,
+          "four": 395,
+          "two": 245
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 446,
+          "two": 240
+        },
+        {
+          "day": 2,
+          "four": 474,
+          "two": 247
+        },
+        {
+          "day": 3,
+          "four": 282,
+          "two": 244
+        },
+        {
+          "day": 4,
+          "four": 362,
+          "two": 247
+        },
+        {
+          "day": 5,
+          "four": 431,
+          "two": 247
+        },
+        {
+          "day": 6,
+          "four": 446,
+          "two": 244
+        },
+        {
+          "day": 7,
+          "four": 422,
+          "two": 250
+        },
+        {
+          "day": 8,
+          "four": 413,
+          "two": 226
+        },
+        {
+          "day": 9,
+          "four": 376,
+          "two": 250
+        },
+        {
+          "day": 10,
+          "four": 407,
+          "two": 250
+        },
+        {
+          "day": 11,
+          "four": 324,
+          "two": 250
+        },
+        {
+          "day": 12,
+          "four": 344,
+          "two": 250
+        },
+        {
+          "day": 13,
+          "four": 405,
+          "two": 242
+        },
+        {
+          "day": 14,
+          "four": 343,
+          "two": 247
+        },
+        {
+          "day": 15,
+          "four": 407,
+          "two": 245
+        },
+        {
+          "day": 16,
+          "four": 444,
+          "two": 243
+        },
+        {
+          "day": 17,
+          "four": 411,
+          "two": 245
+        },
+        {
+          "day": 18,
+          "four": 417,
+          "two": 245
+        },
+        {
+          "day": 19,
+          "four": 420,
+          "two": 250
+        },
+        {
+          "day": 20,
+          "four": 385,
+          "two": 245
+        },
+        {
+          "day": 21,
+          "four": 314,
+          "two": 250
+        },
+        {
+          "day": 22,
+          "four": 399,
+          "two": 226
+        },
+        {
+          "day": 23,
+          "four": 416,
+          "two": 243
+        },
+        {
+          "day": 24,
+          "four": 369,
+          "two": 247
+        },
+        {
+          "day": 25,
+          "four": 343,
+          "two": 241
+        },
+        {
+          "day": 26,
+          "four": 370,
+          "two": 233
+        },
+        {
+          "day": 27,
+          "four": 453,
+          "two": 234
+        },
+        {
+          "day": 28,
+          "four": 421,
+          "two": 237
+        },
+        {
+          "day": 29,
+          "four": 441,
+          "two": 247
+        },
+        {
+          "day": 30,
+          "four": 430,
+          "two": 248
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 432,
+          "two": 238
+        },
+        {
+          "day": 2,
+          "four": 439,
+          "two": 250
+        },
+        {
+          "day": 3,
+          "four": 460,
+          "two": 250
+        },
+        {
+          "day": 4,
+          "four": 398,
+          "two": 245
+        },
+        {
+          "day": 5,
+          "four": 428,
+          "two": 242
+        },
+        {
+          "day": 6,
+          "four": 409,
+          "two": 247
+        },
+        {
+          "day": 7,
+          "four": 417,
+          "two": 244
+        },
+        {
+          "day": 8,
+          "four": 363,
+          "two": 250
+        },
+        {
+          "day": 9,
+          "four": 391,
+          "two": 236
+        },
+        {
+          "day": 10,
+          "four": 458,
+          "two": 244
+        },
+        {
+          "day": 11,
+          "four": 490,
+          "two": 232
+        },
+        {
+          "day": 12,
+          "four": 455,
+          "two": 250
+        },
+        {
+          "day": 13,
+          "four": 437,
+          "two": 240
+        },
+        {
+          "day": 14,
+          "four": 436,
+          "two": 250
+        },
+        {
+          "day": 15,
+          "four": 449,
+          "two": 247
+        },
+        {
+          "day": 16,
+          "four": 429,
+          "two": 250
+        },
+        {
+          "day": 17,
+          "four": 437,
+          "two": 244
+        },
+        {
+          "day": 18,
+          "four": 481,
+          "two": 250
+        },
+        {
+          "day": 19,
+          "four": 491,
+          "two": 247
+        },
+        {
+          "day": 20,
+          "four": 448,
+          "two": 243
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 22,
+          "four": 450,
+          "two": 244
+        },
+        {
+          "day": 23,
+          "four": 346,
+          "two": 250
+        },
+        {
+          "day": 24,
+          "four": 470,
+          "two": 250
+        },
+        {
+          "day": 25,
+          "four": 491,
+          "two": 246
+        },
+        {
+          "day": 26,
+          "four": 469,
+          "two": 250
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 29,
+          "four": 491,
+          "two": 247
+        },
+        {
+          "day": 30,
+          "four": 467,
+          "two": 250
+        },
+        {
+          "day": 31,
+          "four": 494,
+          "two": 250
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 475,
+          "two": 248
+        },
+        {
+          "day": 2,
+          "four": 482,
+          "two": 250
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 5,
+          "four": 476,
+          "two": 250
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 247
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 8,
+          "four": 491,
+          "two": 244
+        },
+        {
+          "day": 9,
+          "four": 495,
+          "two": 250
+        },
+        {
+          "day": 10,
+          "four": 493,
+          "two": 250
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 247
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 245
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 247
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 16,
+          "four": 479,
+          "two": 247
+        },
+        {
+          "day": 17,
+          "four": 463,
+          "two": 233
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 247
+        },
+        {
+          "day": 20,
+          "four": 489,
+          "two": 250
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 247
+        },
+        {
+          "day": 22,
+          "four": 491,
+          "two": 250
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 28,
+          "four": 491,
+          "two": 250
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 250
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 0,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 490,
+          "two": 250
+        },
+        {
+          "day": 25,
+          "four": 491,
+          "two": 250
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 250
+        },
+        {
+          "day": 29,
+          "four": 481,
+          "two": 250
+        },
+        {
+          "day": 30,
+          "four": 466,
+          "two": 250
+        },
+        {
+          "day": 31,
+          "four": 481,
+          "two": 250
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 0
+        },
+        {
+          "day": 31,
+          "four": 500,
+          "two": 0
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 31,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 31,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 31,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 31,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 31,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "dayAvailabilities": [
+        {
+          "day": 1,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 2,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 3,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 4,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 5,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 6,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 7,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 8,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 9,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 10,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 11,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 12,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 13,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 14,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 15,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 16,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 17,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 18,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 19,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 20,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 21,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 22,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 23,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 24,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 25,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 26,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 27,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 28,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 29,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 30,
+          "four": 500,
+          "two": 500
+        },
+        {
+          "day": 31,
+          "four": 500,
+          "two": 500
+        }
+      ]
+    }
+  ]
+}
