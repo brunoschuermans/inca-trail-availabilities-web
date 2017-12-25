@@ -6,6 +6,7 @@ import moment from "moment";
 class App extends Component {
 
     state = {
+        incaTrailDays: 4,
         year: moment().year(),
         month: moment().month(),
     };
@@ -15,7 +16,7 @@ class App extends Component {
     }
 
     fetchAvailabilities() {
-        fetch("https://inca-trail-availabilities.appspot.com/", {method: 'GET'})
+        fetch("https://api.inca-trail-availabilities.work", {method: 'GET'})
             .then(response => {
                 if (response.ok) {
                     return response.json();
@@ -102,15 +103,19 @@ class App extends Component {
         }
     }
 
+    dayAvailability(day) {
+        return this.state.incaTrailDays === 2 ? day.two : day.four;
+    }
+
     render() {
         return (
             <div className="App">
                 <header className="App-header">
-                    <img width="100px" src="/Machu-Picchu.png" />
+                    <img width="100px" src="/Machu-Picchu.png"/>
                     <h1 className="App-title">INCA TRAIL AVAILABILITIES</h1>
                 </header>
                 <h1>
-                    Get day by day actualized inca trail availabilities from the official city of Cusco.
+                    Get day by day actualized inca trail availabilities from the Regional Direction of Culture of Cusco.
                 </h1>
                 <h2>
                     Integrate the availabilities on your web site through our JSON API:
@@ -123,6 +128,13 @@ class App extends Component {
                                 display: "flex",
                                 flexDirection: "column",
                             }}>
+                            <div style={{marginBottom: "20px"}}>
+                                <select value={this.state.incaTrailDays}
+                                        onChange={event => this.setState({incaTrailDays: parseInt(event.target.value)})}>
+                                    <option value={4}>Inca Trail 4 days</option>
+                                    <option value={2}>Inca Trail 2 days</option>
+                                </select>
+                            </div>
                             <div className="row">
                                 <div className="col-xs-2 glyphicon glyphicon-chevron-left"
                                      onClick={() => this.previous()}
@@ -182,9 +194,9 @@ class App extends Component {
                                                                     </p>
                                                                     <p>
                                                                         <small
-                                                                            style={{color: (weekAvailabilities.four > 0) ? "green" : "red"}}>
+                                                                            style={{color: (this.dayAvailability(weekAvailabilities) > 0) ? "green" : "red"}}>
                                                                             {
-                                                                                weekAvailabilities.four
+                                                                                this.dayAvailability(weekAvailabilities)
                                                                             }
                                                                         </small>
                                                                     </p>
@@ -212,7 +224,7 @@ class App extends Component {
                             }}>
                                 <h1>Price:</h1>
                                 <h1>
-                                    $25
+                                    $49
                                 </h1>
                                 <p>
                                     / month
@@ -236,7 +248,8 @@ class App extends Component {
                     </div>
                     <div className="row">
                         <p style={{padding: "20px"}}>
-                            <code>GET https://api.inca-trail-availabilities.work => <a href="/inca-trail-availabilities.json">inca-trail-availabilities.json</a></code>
+                            <code>GET https://api.inca-trail-availabilities.work => <a
+                                href="/inca-trail-availabilities.json">inca-trail-availabilities.json</a></code>
                         </p>
                     </div>
                 </div>
