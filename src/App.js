@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
+import React, {Component} from "react";
+import "./App.css";
 import moment from "moment";
+import {Button} from "react-bootstrap";
 
 class App extends Component {
 
@@ -16,7 +16,7 @@ class App extends Component {
     }
 
     fetchAvailabilities() {
-        fetch("https://api.inca-trail-availabilities.work", {method: 'GET'})
+        fetch("https://steady-course-191300.appspot.com/", {method: 'GET'})
             .then(response => {
                 if (response.ok) {
                     return response.json();
@@ -107,152 +107,127 @@ class App extends Component {
         return this.state.incaTrailDays === 2 ? day.two : day.four;
     }
 
+    toggleIncaTrailDays() {
+        this.setState({incaTrailDays: this.state.incaTrailDays === 4 ? 2 : 4});
+    }
+
     render() {
         return (
-            <div className="App">
-                <header className="App-header">
-                    <img width="100px" src="/Machu-Picchu.png"/>
-                    <h1 className="App-title">INCA TRAIL AVAILABILITIES</h1>
-                </header>
-                <h1>
-                    Get day by day actualized inca trail availabilities from the Regional Direction of Culture of Cusco.
-                </h1>
-                <h2>
-                    Integrate the availabilities on your web site through our JSON API:
-                </h2>
-                <div className="container" style={{marginTop: "50px"}}>
-                    <div className="row">
-                        <div
-                            className="col-lg-6 col-xs-12"
-                            style={{
-                                display: "flex",
-                                flexDirection: "column",
-                            }}>
-                            <div style={{marginBottom: "20px"}}>
-                                <select value={this.state.incaTrailDays}
-                                        onChange={event => this.setState({incaTrailDays: parseInt(event.target.value)})}>
-                                    <option value={4}>Inca Trail 4 days</option>
-                                    <option value={2}>Inca Trail 2 days</option>
-                                </select>
-                            </div>
-                            <div className="row">
-                                <div className="col-xs-2 glyphicon glyphicon-chevron-left"
-                                     onClick={() => this.previous()}
-                                     style={{cursor: "pointer"}}>
-                                </div>
-                                <div className="col-xs-8">
-                                    {
-                                        moment(new Date(this.state.year, this.state.month, 1)).format("MMMM YYYY")
-                                    }
-                                </div>
-                                <div className="col-xs-2 glyphicon glyphicon-chevron-right"
-                                     onClick={() => this.next()}
-                                     style={{cursor: "pointer"}}>
-                                </div>
-                            </div>
-                            <div>
-                                <table cellSpacing="20" width="100%">
-                                    <thead>
-                                    <tr>
-                                        <th>
-                                            <div className="dayTitle">SUN</div>
-                                        </th>
-                                        <th>
-                                            <div className="dayTitle">MON</div>
-                                        </th>
-                                        <th>
-                                            <div className="dayTitle">TUE</div>
-                                        </th>
-                                        <th>
-                                            <div className="dayTitle">WED</div>
-                                        </th>
-                                        <th>
-                                            <div className="dayTitle">THU</div>
-                                        </th>
-                                        <th>
-                                            <div className="dayTitle">FRI</div>
-                                        </th>
-                                        <th>
-                                            <div className="dayTitle">SAT</div>
-                                        </th>
-                                    </tr>
-                                    </thead>
-                                    <tbody id="availability">
-                                    {
-                                        this.state.availabilities &&
-                                        this.monthAvailabilities().map(monthAvailabilities =>
-                                            (
-                                                <tr style={{borderTop: "solid 1px"}}>
-                                                    {
-                                                        monthAvailabilities.map(weekAvailabilities =>
-                                                            (
-                                                                <td>
-                                                                    <p>
-                                                                        {
-                                                                            weekAvailabilities.day
-                                                                        }
-                                                                    </p>
-                                                                    <p>
-                                                                        <small
-                                                                            style={{color: (this.dayAvailability(weekAvailabilities) > 0) ? "green" : "red"}}>
-                                                                            {
-                                                                                this.dayAvailability(weekAvailabilities)
-                                                                            }
-                                                                        </small>
-                                                                    </p>
-                                                                </td>
-                                                            )
-                                                        )
-                                                    }
-                                                </tr>
-                                            )
-                                        )
-                                    }
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-xs-12" style={{
-                            display: "flex",
-                            justifyContent: "center",
-                        }}>
-                            <div style={{
-                                width: "400px",
-                                padding: "50px",
-                                border: "solid 1px lightGrey",
-                                boxShadow: "5px 5px 5px rgba(0, 0, 0, .5)"
-                            }}>
-                                <h1>Price:</h1>
-                                <h1>
-                                    $49
-                                </h1>
-                                <p>
-                                    / month
-                                </p>
-                                <p>
-                                    Annual subscription required
-                                </p>
-                                <p>
-                                    <button
-                                        className="btn btn-warning"
-                                        onClick={() => window.location = "mailto:info@inca-trail-availabilities.work"}
-                                    >
-                                        CONTACT SELLER
-                                    </button>
-                                </p>
-                                <p>
-                                    info@inca-trail-availabilities.work
-                                </p>
-                            </div>
-                        </div>
+            <div
+                className="App"
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                }}
+            >
+                <div>
+                    <Button
+                        bsStyle="primary"
+                        active={this.state.incaTrailDays === 4}
+                        onClick={() => this.toggleIncaTrailDays()}
+                        style={{
+                            marginBottom: "10px",
+                        }}
+                    >
+                        {
+                            this.state.incaTrailDays === 4 ?
+                                "4 days" :
+                                "2 days"
+                        }
+                    </Button>
+                </div>
+                <div className="row">
+                    <div className="col-xs-2 glyphicon glyphicon-chevron-left"
+                         onClick={() => this.previous()}
+                         style={{cursor: "pointer"}}>
                     </div>
-                    <div className="row">
-                        <p style={{padding: "20px"}}>
-                            <code>GET https://api.inca-trail-availabilities.work => <a
-                                href="/inca-trail-availabilities.json">inca-trail-availabilities.json</a></code>
-                        </p>
+                    <div className="col-xs-8">
+                        <b>
+                        {
+                            moment(new Date(this.state.year, this.state.month, 1)).format("MMMM YYYY")
+                        }
+                        </b>
+                    </div>
+                    <div className="col-xs-2 glyphicon glyphicon-chevron-right"
+                         onClick={() => this.next()}
+                         style={{cursor: "pointer"}}>
                     </div>
                 </div>
+                <div>
+                    <table cellSpacing="20" width="100%">
+                        <thead>
+                        <tr>
+                            <th>
+                                <div className="dayTitle">SUN</div>
+                            </th>
+                            <th>
+                                <div className="dayTitle">MON</div>
+                            </th>
+                            <th>
+                                <div className="dayTitle">TUE</div>
+                            </th>
+                            <th>
+                                <div className="dayTitle">WED</div>
+                            </th>
+                            <th>
+                                <div className="dayTitle">THU</div>
+                            </th>
+                            <th>
+                                <div className="dayTitle">FRI</div>
+                            </th>
+                            <th>
+                                <div className="dayTitle">SAT</div>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody id="availability">
+                        {
+                            this.state.availabilities &&
+                            this.monthAvailabilities().map(monthAvailabilities =>
+                                (
+                                    <tr style={{borderTop: "solid 1px"}}>
+                                        {
+                                            monthAvailabilities.map(weekAvailabilities =>
+                                                (
+                                                    <td>
+                                                        <span
+                                                            style={{
+                                                                fontWeight: "bold",
+                                                            }}
+                                                        >
+                                                            {
+                                                                weekAvailabilities.day
+                                                            }
+                                                        </span>
+                                                        <br/>
+                                                        <span
+                                                            style={{
+                                                                color: (this.dayAvailability(weekAvailabilities) > 0) ? "green" : "red"
+                                                            }}
+                                                        >
+                                                            {
+                                                                this.dayAvailability(weekAvailabilities)
+                                                            }
+                                                        </span>
+                                                    </td>
+                                                )
+                                            )
+                                        }
+                                    </tr>
+                                )
+                            )
+                        }
+                        </tbody>
+                    </table>
+                </div>
+                <small
+                    style={{
+                        marginTop: "10px",
+                    }}
+                >
+                    Ⓒ Copyright  <a href="http://www.southernperuexplorers.com">Southern Peru Explorers</a>
+                </small>
             </div>
         );
     }
