@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import "./App.css";
-import moment from "moment";
-import {Button} from "react-bootstrap";
-import {RaisedButton, TextField} from "material-ui";
+import {FlatButton, RaisedButton, TextField} from "material-ui";
 
 export default class ContactForm extends Component {
 
@@ -53,27 +51,28 @@ export default class ContactForm extends Component {
     render() {
         return (
             <form>
-                <TextField
-                    id="email"
-                    required
-                    type="email"
-                    fullWidth={true}
-                    value={this.state.email}
-                    floatingLabelText="Your Email*"
-                    floatingLabelFixed={true}
-                    onChange={(event) => this.setState({email: event.target.value})}
-                />
-                <TextField
-                    id="message"
-                    required
-                    fullWidth={true}
-                    value={this.state.message}
-                    floatingLabelText="Your Message*"
-                    floatingLabelFixed={true}
-                    multiLine={true}
-                    onChange={(event) => this.setState({message: event.target.value})}
-
-                />
+                <div className="formSection">
+                    <label>Your Email *</label>
+                    <TextField
+                        id="email"
+                        required
+                        type="email"
+                        fullWidth={true}
+                        value={this.state.email}
+                        onChange={(event) => this.setState({email: event.target.value})}
+                    />
+                </div>
+                <div className="formSection">
+                    <label>Your Message *</label>
+                    <TextField
+                        id="message"
+                        required
+                        fullWidth={true}
+                        value={this.state.message}
+                        multiLine={true}
+                        onChange={(event) => this.setState({message: event.target.value})}
+                    />
+                </div>
                 <RaisedButton
                     type="submit"
                     style={{
