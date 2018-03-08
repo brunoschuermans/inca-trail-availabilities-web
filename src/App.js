@@ -5,7 +5,7 @@ import IncaTrailAvailabilities from "./IncaTrailAvailabilities";
 import ContactForm from "./ContactForm";
 import BookingForm from "./BookingForm";
 
-const APP_ROOT = "https://steady-course-191300.appspot.com/";
+const APP_ROOT = "https://steady-course-191300.appspot.com";
 
 export default class App extends Component {
 

@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import {getMuiTheme, green500, MuiThemeProvider} from "material-ui";
+import {MuiThemeProvider} from "material-ui";
 import {BrowserRouter} from "react-router-dom";
-
+import "whatwg-fetch";
 
 ReactDOM.render(
     <MuiThemeProvider>
         <BrowserRouter>
-            <App />
+            <App/>
         </BrowserRouter>
     </MuiThemeProvider>
     , document.getElementById('root'));

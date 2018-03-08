@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./App.css";
-import {FlatButton, RaisedButton, TextField} from "material-ui";
+import {RaisedButton, TextField} from "material-ui";
 
 export default class ContactForm extends Component {
 
@@ -20,12 +20,16 @@ export default class ContactForm extends Component {
                 error: false,
             });
 
-            fetch(self.props.appRoot, {
+            fetch(self.props.appRoot + "/contact", {
                 method: "POST",
-                body: {
+                headers: {
+                    "content-type": "application/json",
+                },
+                body: JSON.stringify({
+                    name: self.state.name,
                     email: self.state.email,
                     message: self.state.message,
-                },
+                }),
             })
                 .then(response => {
                     if (!response.ok) {
@@ -52,37 +56,53 @@ export default class ContactForm extends Component {
         return (
             <form>
                 <div className="formSection">
-                    <label>Your Email *</label>
+                    <label>Name *</label>
+                    <TextField
+                        id="name"
+                        required
+                        type="name"
+                        fullWidth={true}
+                        value={this.state.name}
+                        onChange={(event, value) => this.setState({name: value})}
+                    />
+                </div>
+                <div className="formSection">
+                    <label>Email *</label>
                     <TextField
                         id="email"
                         required
                         type="email"
                         fullWidth={true}
                         value={this.state.email}
-                        onChange={(event) => this.setState({email: event.target.value})}
+                        onChange={(event, value) => this.setState({email: value})}
                     />
                 </div>
                 <div className="formSection">
-                    <label>Your Message *</label>
+                    <label>Message *</label>
                     <TextField
                         id="message"
                         required
                         fullWidth={true}
                         value={this.state.message}
                         multiLine={true}
-                        onChange={(event) => this.setState({message: event.target.value})}
+                        rows={5}
+                        rowsMax={5}
+                        onChange={(event, value) => this.setState({message: value})}
                     />
                 </div>
-                <RaisedButton
-                    type="submit"
-                    style={{
-                        marginTop: "20px",
-                    }}
-                    primary={true}
-                    fullWidth={true}
-                    label="Submit"
-                    disabled={this.state.submitting || this.state.submitted}
-                />
+                {
+                    !this.state.submitted &&
+                    <RaisedButton
+                        type="submit"
+                        style={{
+                            marginTop: "20px",
+                        }}
+                        primary={true}
+                        fullWidth={true}
+                        label="Submit"
+                        disabled={this.state.submitting}
+                    />
+                }
                 {
                     this.state.submitted &&
                     <div

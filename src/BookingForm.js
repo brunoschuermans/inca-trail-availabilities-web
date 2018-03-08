@@ -1,7 +1,8 @@
 import React, {Component} from "react";
 import "./App.css";
 import {
-    Checkbox, DatePicker,
+    Checkbox,
+    DatePicker,
     Dialog,
     FlatButton,
     FloatingActionButton,
@@ -19,6 +20,7 @@ import moment from "moment";
 export default class BookingForm extends Component {
 
     state = {
+        addTravellerOpened: false,
         travellers: [],
     };
 
@@ -37,6 +39,7 @@ export default class BookingForm extends Component {
             passport: this.state.temporaryPassport,
             nationality: this.state.temporaryNationality,
             birthDate: this.state.temporaryBirthDate,
+            email: this.state.temporaryEmail,
         });
 
         this.setState({
@@ -140,17 +143,14 @@ export default class BookingForm extends Component {
                                     temporaryPassport: undefined,
                                     temporaryNationality: undefined,
                                     temporaryBirthDate: undefined,
+                                    temporaryEmail: undefined,
                                 });
 
-                                if (!this.state.travellerFormEventListenerAdded) {
-                                    setTimeout(() => {
-                                        document.getElementById("travellerForm").addEventListener("submit", event => {
-                                            this.addTraveller(event);
-                                        }, false);
-                                    }, 300);
-
-                                    this.setState({travellerFormEventListenerAdded: true});
-                                }
+                                setTimeout(() => {
+                                    document.getElementById("travellerForm").addEventListener("submit", event => {
+                                        this.addTraveller(event);
+                                    }, false);
+                                }, 300);
                             }}
                         >
                             <ContentAdd/>
@@ -182,9 +182,6 @@ export default class BookingForm extends Component {
                                     <TextField
                                         required
                                         autoFocus
-                                        ref={input => {
-                                            this.firstName = input;
-                                        }}
                                         fullWidth={true}
                                         value={this.state.temporaryFirstName}
                                         onChange={(event, value) => this.setState({temporaryFirstName: value})}
