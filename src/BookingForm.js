@@ -39,7 +39,6 @@ export default class BookingForm extends Component {
             passport: this.state.temporaryPassport,
             nationality: this.state.temporaryNationality,
             birthDate: moment(this.state.temporaryBirthDate).format("YYYY-MM-DD"),
-            email: this.state.temporaryEmail,
         });
 
         this.setState({
@@ -242,16 +241,6 @@ export default class BookingForm extends Component {
                                         value={this.state.temporaryBirthDate}
                                         maxDate={new Date()}
                                         onChange={(event, value) => this.setState({temporaryBirthDate: value})}
-                                    />
-                                </div>
-                                <div className="formSection">
-                                    <label>Email*</label>
-                                    <TextField
-                                        required
-                                        type="email"
-                                        fullWidth={true}
-                                        value={this.state.temporaryEmail}
-                                        onChange={(event, value) => this.setState({temporaryEmail: value})}
                                     />
                                 </div>
                                 <FlatButton
