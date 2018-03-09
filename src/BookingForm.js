@@ -124,6 +124,7 @@ export default class BookingForm extends Component {
                         fullWidth={true}
                         value={this.state.tourStartDate}
                         minDate={new Date()}
+                        container="inline"
                         onChange={(event, value) => this.setState({tourStartDate: value})}
                     />
                 </div>
@@ -240,6 +241,7 @@ export default class BookingForm extends Component {
                                         fullWidth={true}
                                         value={this.state.temporaryBirthDate}
                                         maxDate={new Date()}
+                                        container="inline"
                                         onChange={(event, value) => this.setState({temporaryBirthDate: value})}
                                     />
                                 </div>
