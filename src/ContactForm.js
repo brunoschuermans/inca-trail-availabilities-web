@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./App.css";
-import {RaisedButton, TextField} from "material-ui";
+import {MenuItem, RaisedButton, SelectField, TextField} from "material-ui";
 
 export default class ContactForm extends Component {
 
@@ -10,32 +10,37 @@ export default class ContactForm extends Component {
 
     componentDidMount() {
         const form  = document.getElementsByTagName('form')[0];
-        const self = this;
 
-        form.addEventListener("submit", function (event) {
+        form.addEventListener("submit", event => {
             event.preventDefault();
-            self.setState({
+
+            if(!this.state.knowUsFrom) {
+                return;
+            }
+
+            this.setState({
                 submitting: true,
                 submitted: false,
                 error: false,
             });
 
-            fetch(self.props.appRoot + "/contact", {
+            fetch(this.props.appRoot + "/contact", {
                 method: "POST",
                 headers: {
                     "content-type": "application/json",
                 },
                 body: JSON.stringify({
-                    name: self.state.name,
-                    email: self.state.email,
-                    message: self.state.message,
+                    name: this.state.name,
+                    email: this.state.email,
+                    knowUsFrom: this.state.knowUsFrom,
+                    message: this.state.message,
                 }),
             })
                 .then(response => {
                     if (!response.ok) {
                         throw new Error(response.statusText);
                     }
-                    self.setState({
+                    this.setState({
                         submitting: false,
                         submitted: true,
                         error: false,
@@ -43,7 +48,7 @@ export default class ContactForm extends Component {
                 })
                 .catch(error => {
                     console.log(error);
-                    self.setState({
+                    this.setState({
                         submitting: false,
                         submitted: false,
                         error: true,
@@ -76,6 +81,21 @@ export default class ContactForm extends Component {
                         value={this.state.email}
                         onChange={(event, value) => this.setState({email: value})}
                     />
+                </div>
+                <div className="formSection">
+                    <label>From where do you know us? *</label>
+                    <SelectField
+                        id="knowUsFrom"
+                        required
+                        fullWidth={true}
+                        value={this.state.knowUsFrom}
+                        onChange={(event, key, value) => this.setState({knowUsFrom: value})}
+                    >
+                        <MenuItem value="FRIENDS" primaryText="Friends"/>
+                        <MenuItem value="GOOGLE" primaryText="Google"/>
+                        <MenuItem value="WILD_ROVER" primaryText="Wild Rover"/>
+                        <MenuItem value="OTHER" primaryText="Other"/>
+                    </SelectField>
                 </div>
                 <div className="formSection">
                     <label>Message *</label>

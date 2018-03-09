@@ -38,7 +38,7 @@ export default class BookingForm extends Component {
             lastName: this.state.temporaryLastName,
             passport: this.state.temporaryPassport,
             nationality: this.state.temporaryNationality,
-            birthDate: this.state.temporaryBirthDate,
+            birthDate: moment(this.state.temporaryBirthDate).format("YYYY-MM-DD"),
             email: this.state.temporaryEmail,
         });
 
@@ -50,18 +50,32 @@ export default class BookingForm extends Component {
     book(event) {
         event.preventDefault();
 
+        if(!this.state.tour || !this.state.knowUsFrom || this.state.travellers.length === 0) {
+            return;
+        }
+
         this.setState({
             submitting: true,
             submitted: false,
             error: false,
         });
 
-        fetch(this.props.appRoot, {
+        fetch(this.props.appRoot + "/booking", {
             method: "POST",
-            body: {
-                email: this.state.email,
-                message: this.state.message,
+            headers: {
+                "content-type": "application/json",
             },
+            body: JSON.stringify({
+                email: this.state.email,
+                tourStartDate: moment(this.state.tourStartDate).format("YYYY-MM-DD"),
+                tourType: this.state.tourType,
+                tour: this.state.tour,
+                hotel: this.state.hotel,
+                foodRestriction: this.state.foodRestriction,
+                anyInformation: this.state.anyInformation,
+                knowUsFrom: this.state.knowUsFrom,
+                travellerForms: this.state.travellers,
+            }),
         })
             .then(response => {
                 if (!response.ok) {
@@ -83,13 +97,17 @@ export default class BookingForm extends Component {
             });
     }
 
+    removeTraveller(index) {
+        this.state.travellers.splice(index, 1);
+    }
+
     render() {
         return (
             <form
                 id="bookingForm"
             >
                 <div className="formSection">
-                    <label>Point of Contact Email *</label>
+                    <label>Point of Contact Email*</label>
                     <TextField
                         id="email"
                         required
@@ -100,17 +118,18 @@ export default class BookingForm extends Component {
                     />
                 </div>
                 <div className="formSection">
-                    <label>Tour Start Date *</label>
+                    <label>Tour Start Date*</label>
                     <DatePicker
                         id="tourStartDate"
                         required
                         fullWidth={true}
-                        value={this.state.startDate}
-                        onChange={(event, value) => this.setState({startDate: value})}
+                        value={this.state.tourStartDate}
+                        minDate={new Date()}
+                        onChange={(event, value) => this.setState({tourStartDate: value})}
                     />
                 </div>
                 <div className="formSection">
-                    <label>Group or Private Tour *</label>
+                    <label>Group or Private Tour*</label>
                     <RadioButtonGroup
                         name="tourType"
                         valueSelected={this.state.tourType}
@@ -119,19 +138,19 @@ export default class BookingForm extends Component {
                     >
                         <RadioButton
                             required
-                            key="P"
-                            value="P"
+                            key="PRIVATE"
+                            value="PRIVATE"
                             label="Private"
                         />
                         <RadioButton
-                            key="G"
-                            value="G"
+                            key="GROUP"
+                            value="GROUP"
                             label="Group"
                         />
                     </RadioButtonGroup>
                 </div>
                 <div className="formSection">
-                    <label>Clients Passport Information</label>
+                    <label>Passport Information of ALL Participants*</label>
                     <div>
                         <FloatingActionButton
                             mini={true}
@@ -158,12 +177,13 @@ export default class BookingForm extends Component {
                         <p/>
                         <ol>
                             {
-                                this.state.travellers.map(t =>
+                                this.state.travellers.map((t, index) =>
                                     (
-                                        <li>
+                                        <li key={index}>
                                             {
-                                                t.firstName + " " + t.lastName + " (" + t.passport + ", " + t.nationality + ", " + moment(t.birthDate).format("DD/MM/YYYY") + ")"
+                                                t.firstName + " " + t.lastName + " (" + t.passport + ", " + t.nationality + ", " + moment(t.birthDate).format("DD/MM/YYYY") + ", " + t.email + ") "
                                             }
+                                            <a href="#" onClick={() => this.removeTraveller(index)}><small>remove</small></a>
                                         </li>
                                     )
                                 )
@@ -178,7 +198,7 @@ export default class BookingForm extends Component {
                                 id="travellerForm"
                             >
                                 <div className="formSection">
-                                    <label>First Name *</label>
+                                    <label>First Name*</label>
                                     <TextField
                                         required
                                         autoFocus
@@ -188,7 +208,7 @@ export default class BookingForm extends Component {
                                     />
                                 </div>
                                 <div className="formSection">
-                                    <label>Last Name *</label>
+                                    <label>Last Name*</label>
                                     <TextField
                                         required
                                         fullWidth={true}
@@ -197,7 +217,7 @@ export default class BookingForm extends Component {
                                     />
                                 </div>
                                 <div className="formSection">
-                                    <label>Passport Number *</label>
+                                    <label>Passport Number*</label>
                                     <TextField
                                         required
                                         fullWidth={true}
@@ -206,7 +226,7 @@ export default class BookingForm extends Component {
                                     />
                                 </div>
                                 <div className="formSection">
-                                    <label>Nationality *</label>
+                                    <label>Nationality*</label>
                                     <TextField
                                         required
                                         fullWidth={true}
@@ -215,16 +235,17 @@ export default class BookingForm extends Component {
                                     />
                                 </div>
                                 <div className="formSection">
-                                    <label>Birth Date *</label>
+                                    <label>Birth Date*</label>
                                     <DatePicker
                                         required
                                         fullWidth={true}
                                         value={this.state.temporaryBirthDate}
+                                        maxDate={new Date()}
                                         onChange={(event, value) => this.setState({temporaryBirthDate: value})}
                                     />
                                 </div>
                                 <div className="formSection">
-                                    <label>Email *</label>
+                                    <label>Email*</label>
                                     <TextField
                                         required
                                         type="email"
@@ -247,7 +268,7 @@ export default class BookingForm extends Component {
                     </div>
                 </div>
                 <div className="formSection">
-                    <label>Choose your Tour *</label>
+                    <label>Choose your Tour*</label>
                     <SelectField
                         id="tour"
                         required
@@ -255,21 +276,21 @@ export default class BookingForm extends Component {
                         value={this.state.tour}
                         onChange={(event, key, value) => this.setState({tour: value})}
                     >
-                        <MenuItem value="INU" primaryText="Ultimate Inca Trail 8D/7N"/>
-                        <MenuItem value="INT" primaryText="Trailblazing Inca Trail 5D/4N"/>
-                        <MenuItem value="INC" primaryText="Classic Inca Trail 4D/3N"/>
-                        <MenuItem value="INT" primaryText="A Taste of Inca Trail 2D/1N"/>
-                        <MenuItem value="BPE" primaryText="The Best of Peru 12D/11N"/>
-                        <MenuItem value="TAM" primaryText="Tambopata Jungle 4D/3N"/>
-                        <MenuItem value="SAL" primaryText="Salkantay Trek 5D/4N"/>
-                        <MenuItem value="LAR" primaryText="Lares Trek 4D/3N"/>
-                        <MenuItem value="EXT" primaryText="Extreme Adventure to Machu Picchu 4D/3N"/>
-                        <MenuItem value="CHO" primaryText="Choquequirao Trek 5D/4N"/>
-                        <MenuItem value="AUS" primaryText="Ausangate Trek 5D/4N"/>
+                        <MenuItem value="INCA_TRAIL_ULTIMATE" primaryText="Ultimate Inca Trail 8D/7N"/>
+                        <MenuItem value="INCA_TRAIL_TRAILBLAZING" primaryText="Trailblazing Inca Trail 5D/4N"/>
+                        <MenuItem value="INCA_TRAIL_CLASSIC" primaryText="Classic Inca Trail 4D/3N"/>
+                        <MenuItem value="INCA_TRAIL_TASTE" primaryText="A Taste of Inca Trail 2D/1N"/>
+                        <MenuItem value="BEST_OF_PERU" primaryText="The Best of Peru 12D/11N"/>
+                        <MenuItem value="TAMBOPATA_JUNGLE" primaryText="Tambopata Jungle 4D/3N"/>
+                        <MenuItem value="SALKANTAY" primaryText="Salkantay Trek 5D/4N"/>
+                        <MenuItem value="LARES" primaryText="Lares Trek 4D/3N"/>
+                        <MenuItem value="EXTREME_ADVENTURE" primaryText="Extreme Adventure to Machu Picchu 4D/3N"/>
+                        <MenuItem value="CHOQUEQUIRAO" primaryText="Choquequirao Trek 5D/4N"/>
+                        <MenuItem value="AUSANGATE" primaryText="Ausangate Trek 5D/4N"/>
                     </SelectField>
                 </div>
                 <div className="formSection">
-                    <label>Where is the hotel we have to pick you up? *</label>
+                    <label>Where is the hotel we have to pick you up?*</label>
                     <TextField
                         id="hotel"
                         required
@@ -300,7 +321,7 @@ export default class BookingForm extends Component {
                     />
                 </div>
                 <div className="formSection">
-                    <label>Where do you know us *</label>
+                    <label>From where do you know us?*</label>
                     <SelectField
                         id="knowUsFrom"
                         required
@@ -308,9 +329,10 @@ export default class BookingForm extends Component {
                         value={this.state.knowUsFrom}
                         onChange={(event, key, value) => this.setState({knowUsFrom: value})}
                     >
-                        <MenuItem value="FRD" primaryText="Friends"/>
-                        <MenuItem value="GOO" primaryText="Google"/>
-                        <MenuItem value="OTH" primaryText="Other"/>
+                        <MenuItem value="FRIENDS" primaryText="Friends"/>
+                        <MenuItem value="GOOGLE" primaryText="Google"/>
+                        <MenuItem value="WILD_ROVER" primaryText="Wild Rover"/>
+                        <MenuItem value="OTHER" primaryText="Other"/>
                     </SelectField>
                 </div>
                 <div className="formSection">
@@ -318,19 +340,23 @@ export default class BookingForm extends Component {
                         required
                         checked={this.state.termsAndConditionsAccepted}
                         onCheck={(event, checked) => this.setState({termsAndConditionsAccepted: checked})}
-                        label="I have read and accepted the terms and conditions of Southern Peru Explorers *"
+                        label="I have read and accepted the terms and conditions of Southern Peru Explorers*"
                     />
                 </div>
-                <RaisedButton
-                    type="submit"
-                    style={{
-                        marginTop: "20px",
-                    }}
-                    primary={true}
-                    fullWidth={true}
-                    label="Submit"
-                    disabled={this.state.submitting || this.state.submitted}
-                />
+                {
+                    !this.state.submitted &&
+                    !this.state.error &&
+                    <RaisedButton
+                        type="submit"
+                        style={{
+                            marginTop: "20px",
+                        }}
+                        primary={true}
+                        fullWidth={true}
+                        label="Submit"
+                        disabled={this.state.submitting}
+                    />
+                }
                 {
                     this.state.submitted &&
                     <div
@@ -340,7 +366,7 @@ export default class BookingForm extends Component {
                             textAlign: "center",
                         }}
                     >
-                        <strong>Thank you for your message!</strong>
+                        <strong>Thank you for your booking! Don't forget to go to Step 3</strong>
                     </div>
                 }
                 {
