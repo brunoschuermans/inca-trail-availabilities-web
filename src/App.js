@@ -11,7 +11,11 @@ export default class App extends Component {
 
     render() {
         return (
-            <div>
+            <div
+                style={{
+                    width: "100%",
+                }}
+            >
                 <Route exact path="/" render={(route) =>
                     <Redirect to="/inca-trail-availabilities"/>
                 }

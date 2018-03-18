@@ -49,7 +49,7 @@ export default class BookingForm extends Component {
     book(event) {
         event.preventDefault();
 
-        if(!this.state.tour || !this.state.knowUsFrom || this.state.travellers.length === 0) {
+        if (!this.state.tour || !this.state.knowUsFrom || this.state.travellers.length === 0) {
             return;
         }
 
@@ -106,7 +106,7 @@ export default class BookingForm extends Component {
                 id="bookingForm"
             >
                 <div className="formSection">
-                    <label>Point of Contact Email*</label>
+                    <label>Contact Email*</label>
                     <TextField
                         id="email"
                         required
@@ -129,7 +129,7 @@ export default class BookingForm extends Component {
                     />
                 </div>
                 <div className="formSection">
-                    <label>Group or Private Tour*</label>
+                    <label>Group/Private Tour*</label>
                     <RadioButtonGroup
                         name="tourType"
                         valueSelected={this.state.tourType}
@@ -150,7 +150,7 @@ export default class BookingForm extends Component {
                     </RadioButtonGroup>
                 </div>
                 <div className="formSection">
-                    <label>Passport Information of ALL Participants*</label>
+                    <label>Add Passports Data*</label>
                     <div>
                         <FloatingActionButton
                             mini={true}
@@ -175,20 +175,24 @@ export default class BookingForm extends Component {
                             <ContentAdd/>
                         </FloatingActionButton>
                         <p/>
-                        <ol>
-                            {
-                                this.state.travellers.map((t, index) =>
-                                    (
-                                        <li key={index}>
+                        {
+                            this.state.travellers.map((t, index) =>
+                                (
+                                    <span
+                                        key={index}
+                                        style={{
+                                            display: "block",
+                                        }}
+                                    >
                                             {
-                                                t.firstName + " " + t.lastName + " (" + t.passport + ", " + t.nationality + ", " + moment(t.birthDate).format("DD/MM/YYYY") + ", " + t.email + ") "
+                                                t.firstName + " " + t.lastName
                                             }
-                                            <a href="#" onClick={() => this.removeTraveller(index)}><small>remove</small></a>
-                                        </li>
-                                    )
+                                        <a href="#" onClick={() => this.removeTraveller(index)}><small> remove</small></a>
+                                        </span>
+
                                 )
-                            }
-                        </ol>
+                            )
+                        }
                         <Dialog
                             title="Add Traveller"
                             modal={true}
@@ -267,10 +271,10 @@ export default class BookingForm extends Component {
                         value={this.state.tour}
                         onChange={(event, key, value) => this.setState({tour: value})}
                     >
-                        <MenuItem value="INCA_TRAIL_ULTIMATE" primaryText="Ultimate Inca Trail 8D/7N"/>
-                        <MenuItem value="INCA_TRAIL_TRAILBLAZING" primaryText="Trailblazing Inca Trail 5D/4N"/>
-                        <MenuItem value="INCA_TRAIL_CLASSIC" primaryText="Classic Inca Trail 4D/3N"/>
-                        <MenuItem value="INCA_TRAIL_TASTE" primaryText="A Taste of Inca Trail 2D/1N"/>
+                        <MenuItem value="INCA_TRAIL_ULTIMATE" primaryText="Inca Trail 8D/7N"/>
+                        <MenuItem value="INCA_TRAIL_TRAILBLAZING" primaryText="Inca Trail 5D/4N"/>
+                        <MenuItem value="INCA_TRAIL_CLASSIC" primaryText="Inca Trail 4D/3N"/>
+                        <MenuItem value="INCA_TRAIL_TASTE" primaryText="Inca Trail 2D/1N"/>
                         <MenuItem value="BEST_OF_PERU" primaryText="The Best of Peru 12D/11N"/>
                         <MenuItem value="TAMBOPATA_JUNGLE" primaryText="Tambopata Jungle 4D/3N"/>
                         <MenuItem value="SALKANTAY" primaryText="Salkantay Trek 5D/4N"/>
@@ -281,7 +285,7 @@ export default class BookingForm extends Component {
                     </SelectField>
                 </div>
                 <div className="formSection">
-                    <label>Where is the hotel we have to pick you up?*</label>
+                    <label>Hotel for pick up*</label>
                     <TextField
                         id="hotel"
                         required
@@ -292,7 +296,7 @@ export default class BookingForm extends Component {
                     />
                 </div>
                 <div className="formSection">
-                    <label>Let us know if anyone has food restrictions</label>
+                    <label>Food restrictions</label>
                     <TextField
                         id="foodRestriction"
                         fullWidth={true}
@@ -302,7 +306,7 @@ export default class BookingForm extends Component {
                     />
                 </div>
                 <div className="formSection">
-                    <label>Let us know any other information we should know</label>
+                    <label>Other comment</label>
                     <TextField
                         id="anyInformation"
                         fullWidth={true}
@@ -312,7 +316,7 @@ export default class BookingForm extends Component {
                     />
                 </div>
                 <div className="formSection">
-                    <label>From where do you know us?*</label>
+                    <label>Knowing us from*</label>
                     <SelectField
                         id="knowUsFrom"
                         required
@@ -325,14 +329,6 @@ export default class BookingForm extends Component {
                         <MenuItem value="WILD_ROVER" primaryText="Wild Rover"/>
                         <MenuItem value="OTHER" primaryText="Other"/>
                     </SelectField>
-                </div>
-                <div className="formSection">
-                    <Checkbox
-                        required
-                        checked={this.state.termsAndConditionsAccepted}
-                        onCheck={(event, checked) => this.setState({termsAndConditionsAccepted: checked})}
-                        label="I have read and accepted the terms and conditions of Southern Peru Explorers*"
-                    />
                 </div>
                 {
                     !this.state.submitted &&
