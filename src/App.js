@@ -13,7 +13,7 @@ export default class App extends Component {
         return (
             <div
                 style={{
-                    width: "100%",
+                    width: "100%npm ",
                 }}
             >
                 <Route exact path="/" render={(route) =>

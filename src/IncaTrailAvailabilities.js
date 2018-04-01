@@ -2,11 +2,12 @@ import React, {Component} from "react";
 import "./App.css";
 import moment from "moment";
 import {Button} from "react-bootstrap";
+import qs from "query-string";
 
 export default class IncaTrailAvailabilities extends Component {
 
     state = {
-        incaTrailDays: 4,
+        incaTrailDays: qs.parse(this.props.route.location.search).two === null ? 2 : 4,
         year: moment().year(),
         month: moment().month(),
     };
@@ -144,9 +145,9 @@ export default class IncaTrailAvailabilities extends Component {
                     </div>
                     <div className="col-xs-8">
                         <b>
-                        {
-                            moment(new Date(this.state.year, this.state.month, 1)).format("MMMM YYYY")
-                        }
+                            {
+                                moment(new Date(this.state.year, this.state.month, 1)).format("MMMM YYYY")
+                            }
                         </b>
                     </div>
                     <div className="col-xs-2 glyphicon glyphicon-chevron-right"
@@ -226,7 +227,7 @@ export default class IncaTrailAvailabilities extends Component {
                         marginTop: "10px",
                     }}
                 >
-                    Ⓒ Copyright  <a href="http://www.southernperuexplorers.com">Southern Peru Explorers</a>
+                    Ⓒ Copyright <a href="http://www.southernperuexplorers.com">Southern Peru Explorers</a>
                 </small>
             </div>
         );

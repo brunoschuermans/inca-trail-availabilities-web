@@ -279,7 +279,7 @@ export default class BookingForm extends Component {
                         <MenuItem value="TAMBOPATA_JUNGLE" primaryText="Tambopata Jungle 4D/3N"/>
                         <MenuItem value="SALKANTAY" primaryText="Salkantay Trek 5D/4N"/>
                         <MenuItem value="LARES" primaryText="Lares Trek 4D/3N"/>
-                        <MenuItem value="EXTREME_ADVENTURE" primaryText="Extreme Adventure to Machu Picchu 4D/3N"/>
+                        <MenuItem value="EXTREME_ADVENTURE" primaryText="Inca Jungle to Machu Picchu 4D/3N"/>
                         <MenuItem value="CHOQUEQUIRAO" primaryText="Choquequirao Trek 5D/4N"/>
                         <MenuItem value="AUSANGATE" primaryText="Ausangate Trek 5D/4N"/>
                     </SelectField>
